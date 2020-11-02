@@ -14,10 +14,6 @@ header h3{
  padding-left: 2em;
 
 }
-#main-nav{
-    
-
-}
 #main-nav ul li{
    display: inline-block;
 
@@ -46,4 +42,36 @@ border: solid 1px whitesmoke;
     box-shadow: 0 0 3px black;
 
 }
+#works-section article {
+    border-bottom: solid 2px white;
+    margin-bottom: 2em;
+}
+#works-section article img{
+width: 25%;
+margin-right: 2%;
+}
+#works-section article .content{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+
+    }
+    .gallery-container img{
+        width: 30%;
+        margin: 1%;
+    }
+@media screen and (max-width: 600px){
+    .box{
+        width: 100%;
+    }
+    .gallery-container img {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+
+
+
 
