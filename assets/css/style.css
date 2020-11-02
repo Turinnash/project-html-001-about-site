@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(231, 231, 231);
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: rgb(245, 0, 0);
+    height: 4em;
+    line-height: 4em;
+}
+header h3{
+ margin: 0;
+ padding-left: 2em;
+
+}
+#main-nav{
+    
+
+}
+#main-nav ul li{
+   display: inline-block;
+
+}
+section {
+padding: 1em 2em;
+background-color: rgb(225, 225, 225);
+border: solid 1px whitesmoke;
+}
+
+.profile-pictures img{
+    width: 30%;
+    margin: 8%;
+}
+.box {
+    display: inline-block;
+    width: 25%;
+    margin: 3%;
+    background-color: white;
+    text-align: center;
+    height: 5em;
+    line-height: 5em;
+    font-size: 2em;
+    border-radius: 3px;
+    border: solid 1px white;
+    box-shadow: 0 0 3px black;
+
+}
+

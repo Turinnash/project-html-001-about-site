@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tony Stark bemutatkozó oldala</title>
-   <link rel="stylesheet" href="assets\css\css">
+   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
@@ -13,14 +13,49 @@
     </header>
     <nav id="main-nav">
         <ul>
-            <li><a href="/home">Home</a></li>
-            <li><a href="/works">Works</a></li>
-            <li><a href="/gallery">Gallery</a></li>
-            <li><a href="/about">About</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
         </ul>
     </nav>
-    <main></main>
-    <section></section>
+    <main>
+        <section>
+            <aside class="side-image">
+                <img src="https://atom-wordpress-assets.s3.amazonaws.com/movie-news/wp-content/uploads/2019/04/tony-stark.jpg" alt="handsome tony stark">
+            </aside>
+            <article class="bio"> 
+                <h4>Erényeim, melyeket nem győzök hangsúlyozni:</h4>
+                <ul>
+                    <li>Zseni</li>
+                    <li>Milliárdos</li>
+                    <li>Playboy</li>
+                    
+                </ul>
+                <h4>Életutamat a következő dokumentumfilmekben követheted végig:</h4>
+                <ol>
+                    <li>Ironman 1-2-3</li>
+                    <li>Captain America: Civil War</li>
+                    <li>Avengers 1-2-3-4</li>
+                </ol>
+
+            </article>
+        </section>
+        <section>
+            <form action="" class="message-form">
+                <div class="form-grp">
+                    <label for="">Név</label><input type="text" minlength="5" class="form-control"></div>
+                <div class="form-grp" required>
+                    <label for="">Email</label><input type="email" class="form-control"></div>
+                <div class="form-grp" required>
+                    <label for=""></label><textarea minlength="20" class="form-control"></textarea></div>
+                    <button type="submit" required>
+                        Küldés
+                    </button>
+            </form>
+        </section>
+    </main>
+    
     <footer>
         <a href="#main-nav">Menü</a>
     </footer>
